@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Obsidian
+.obsidian/workspace*
+.obsidian/cache
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# IDE
+.vscode/
+.idea/
+
+# Python (如果未来需要)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Node.js (如果未来需要)
+node_modules/
+npm-debug.log*
