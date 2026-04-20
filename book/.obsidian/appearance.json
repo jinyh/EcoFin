@@ -1,0 +1,11 @@
+{
+  "textFontFamily": "system-ui",
+  "interfaceFontFamily": "system-ui",
+  "monospaceFontFamily": "monospace",
+  "baseFontSize": 16,
+  "accentColor": "#7c3aed",
+  "theme": "system",
+  "nativeMenus": true,
+  "showRibbon": true,
+  "showViewHeader": true
+}

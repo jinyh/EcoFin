@@ -3,9 +3,13 @@
 .AppleDouble
 .LSOverride
 
-# Obsidian
+# Obsidian workspace (保留配置，排除工作状态)
 .obsidian/workspace*
 .obsidian/cache
+.obsidian/*.json.bak
+book/.obsidian/workspace*
+book/.obsidian/cache
+book/.obsidian/*.json.bak
 
 # Environment variables
 .env
