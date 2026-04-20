@@ -10,6 +10,7 @@ tags:
   - cn-us-comparison
 type: appendix
 status: stable
+importance: normal
 version: v1.0
 date: '2026-04-19'
 ---
