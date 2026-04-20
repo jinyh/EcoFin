@@ -55,9 +55,9 @@
 │   ├── 02-finance.md        # 金融学篇
 │   ├── 03-politics.md       # 政治学篇
 │   ├── 04-law.md            # 法学篇
-│   ├── 07-cross-themes.md   # 交叉主题篇
 │   ├── 05-accounting.md     # 会计学篇
 │   ├── 06-history.md        # 经济史篇
+│   ├── 07-cross-themes.md   # 交叉主题篇
 │   └── APP-investment.md    # 投资实践附录
 ├── docs/                    # 📋 项目文档
 │   ├── 扩充规划.md          # 70模块扩充计划
