@@ -31,9 +31,9 @@
 | [02](./book/02-finance.md) | 金融学 | 价值配置、风险管理、金融工具 | stable |
 | [03](./book/03-politics.md) | 政治学 | 制度框架、政策制定、权力博弈 | stable |
 | [04](./book/04-law.md) | 法学 | 规则保障、合约执行、产权界定 | stable |
-| [06](./book/06-accounting.md) | 会计学 | 信息质量、准则对比、造假识别 | stable ✅ |
-| [07](./book/07-history.md) | 经济史 | 历史经验、制度演变、思潮变迁 | stable |
-| [05](./book/05-cross-themes.md) | 交叉主题 | 金融与法律、经济与政治的跨学科议题 | stable |
+| [06](./book/05-accounting.md) | 会计学 | 信息质量、准则对比、造假识别 | stable ✅ |
+| [07](./book/06-history.md) | 经济史 | 历史经验、制度演变、思潮变迁 | stable |
+| [05](./book/07-cross-themes.md) | 交叉主题 | 金融与法律、经济与政治的跨学科议题 | stable |
 
 **实践入口**：[投资实践附录](./book/APP-investment.md)
 
@@ -55,9 +55,9 @@
 │   ├── 02-finance.md        # 金融学篇
 │   ├── 03-politics.md       # 政治学篇
 │   ├── 04-law.md            # 法学篇
-│   ├── 05-cross-themes.md   # 交叉主题篇
-│   ├── 06-accounting.md     # 会计学篇
-│   ├── 07-history.md        # 经济史篇
+│   ├── 07-cross-themes.md   # 交叉主题篇
+│   ├── 05-accounting.md     # 会计学篇
+│   ├── 06-history.md        # 经济史篇
 │   └── APP-investment.md    # 投资实践附录
 ├── docs/                    # 📋 项目文档
 │   ├── 扩充规划.md          # 70模块扩充计划
