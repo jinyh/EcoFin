@@ -5,7 +5,7 @@
 金融经济百科知识库，采用中美对比视角，兼容 Obsidian 双向链接。
 
 **核心特色**：
-- 四学科体系：经济学、金融学、政治学、法学
+- 六学科体系：经济学、金融学、政治学、法学、会计学、经济史
 - 中美对比视角：每个知识点同时呈现中美差异
 - 五段式结构：理论 → 数学 → 对比 → 直觉 → 实践
 - Obsidian 兼容：支持双向链接和知识图谱
@@ -23,19 +23,26 @@
 
 ```
 /EcoFin/
-├── 00-index.md              # 知识地图（导航入口）
-├── 01-economics.md          # 经济学篇
-├── 02-finance.md            # 金融学篇
-├── 03-politics.md           # 政治学篇
-├── 04-law.md                # 法学篇
-├── 05-cross-themes.md       # 交叉主题篇
-├── APP-investment.md        # 投资实践附录
+├── book/
+│   ├── 00-index.md          # 知识地图（导航入口）
+│   ├── 01-economics.md      # 经济学篇
+│   ├── 02-finance.md        # 金融学篇
+│   ├── 03-politics.md       # 政治学篇
+│   ├── 04-law.md            # 法学篇
+│   ├── 05-accounting.md     # 会计学篇
+│   ├── 06-history.md        # 经济史篇
+│   ├── 07-cross-themes.md   # 交叉主题篇
+│   └── APP-investment.md    # 投资实践附录
 ├── README.md                # 项目说明
 ├── CLAUDE.md                # 本文件
 ├── .gitignore               # Git 忽略配置
 ├── archive/                 # 版本存档目录
 │   └── 文件名-v版本-日期.md
+├── sources/                 # 外部来源快照
 └── docs/
+    ├── planning/            # 规划文档
+    ├── tracking/            # 跟踪文档
+    ├── reports/             # 阶段报告
     └── architecture/        # 架构决策记录（ADR）
 ```
 
@@ -65,7 +72,7 @@ aliases:
 category:
   - 金融经济百科
 tags:
-  - finance/economics/politics/law
+  - economics/finance/politics/law/accounting/history
   - cn-us-comparison
 type: topic/appendix
 status: stable/draft
@@ -170,7 +177,7 @@ $$P_0 = \sum_{t=1}^{\infty} \frac{D_t}{(1+r)^t}$$
 
 1. **存档旧版本**：
    ```bash
-   cp 02-finance.md archive/02-finance-v1.0-20260419.md
+   cp book/02-finance.md archive/02-finance-v1.0-20260419.md
    ```
 
 2. **更新文档内容**
